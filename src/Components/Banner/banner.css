@@ -1,0 +1,119 @@
+/* .banner{
+    position: relative;
+    width:100%;
+    height:calc(30vw - 50px);
+    background-color:#f5f5f5;
+    background-size:cover;
+    background-position:center;
+    background-image:url("https://cloudinary.hbs.edu/hbsit/image/upload/s--U2WS_4nq--/f_auto,c_fill,h_375,w_750,/v20200101/D7532B9D91C3F0CC1CD73CFE480838E9.jpg");
+  }
+  .banner-content{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    color:#FFF;
+    background-color: rgba(0,22,40,.6);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+ 
+  
+
+  .banner-content h1{
+    margin:0;
+    padding:0 0 0 10px;
+    padding-bottom:30px;
+    font-size:40px;
+    text-align:left;
+  }
+  .banner-content a{
+    text-decoration:none;
+    color:#f5f5f5;
+    padding:9px 20px;
+    border:1px solid #f5f5f5;
+    text-transform: uppercase;
+   
+  }
+  
+  .banner-content a:hover {
+    background-color:#FFF;
+    color:#333;
+  }
+   */
+
+@import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+h1.title {
+  margin-bottom: 20px;
+  color: #444444;
+  font-family: "Allura", cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+  word-spacing: 25px;
+  letter-spacing: 5px;
+}
+
+.btn a {
+  display: block;
+  width: 180px;
+  height: 35px;
+  border: 2px solid #fb2274;
+  line-height: 35px;
+  margin: 25px auto 0;
+  color: #fb2274;
+  text-align: center;
+}
+
+/* Banner Image */
+.banner_image {
+  /* background: url("https://cloudinary.hbs.edu/hbsit/image/upload/s--U2WS_4nq--/f_auto,c_fill,h_375,w_750,/v20200101/D7532B9D91C3F0CC1CD73CFE480838E9.jpg") no-repeat top center; */
+  background-size: cover;
+  width: 99%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  opacity: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cloudinary.hbs.edu/hbsit/image/upload/s--U2WS_4nq--/f_auto,c_fill,h_375,w_750,/v20200101/D7532B9D91C3F0CC1CD73CFE480838E9.jpg")
+      center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin: 5px auto;
+  border-radius: 6px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.banner_content {
+  text-align: center;
+  color: #fff;
+}
+
+.banner_content h1 {
+  text-transform: uppercase;
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+

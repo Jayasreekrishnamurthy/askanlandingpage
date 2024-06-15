@@ -1,0 +1,103 @@
+.videopartbg {
+  background-color: #ffff;
+  padding-top: 3rem;
+}
+.videopart {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+video {
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 25px;
+}
+.videoheadingContianer {
+  width: 80%;
+  margin: auto;
+}
+
+.videoheading {
+  text-align: center;
+  /* margin-top: 20px; */
+  padding-top: 5rem;
+}
+.videoheading p {
+  padding-top: 3%;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: gray;
+  font-weight: 500;
+}
+.videoheading h1 {
+  /* padding: 3px; */
+  margin-top: 10px;
+  font-size: 24px;
+}
+.videoimg {
+  width: 25%;
+}
+
+.container {
+  /* max-width: 910px; */
+  margin: auto;
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3rem;
+}
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1055px) {
+  .container {
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+
+    /* flex-direction: column !important; */
+    /* background-color: rebeccapurple; */
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+#how-it-works p {
+  /* margin: 0 0 1rem; */
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 8px;
+}
+
+/* start: how it works styles */
+#how-it-works {
+  padding: 3rem 0;
+  /* background: #f8f9fa; */
+  text-align: center;
+}
+
+#how-it-works h2 {
+  margin-bottom: 3rem;
+}
+
+#how-it-works .flex > div {
+  width: 30%;
+}
+
+#how-it-works h4 {
+  color: #343a40;
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#how-it-works span.fas {
+  color: #003166;
+  font-size: 35px;
+}
+/* end: how it works styles */

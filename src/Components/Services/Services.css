@@ -1,0 +1,138 @@
+.Services {
+  text-align: center;
+  /* margin-top: 5px; */
+  background-color: #fff;
+}
+.serviceContainer {
+  background-color: #fff;
+}
+.Services h1 {
+  /* padding: 3px; */
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 3rem;
+}
+.Services .mainheading {
+  padding-top: 3%;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: gray;
+  font-weight: 500;
+}
+.article {
+  width: 76%;
+  margin: auto;
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.group {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.image {
+  /* background: silver; */
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  /* padding: 20px; */
+  /* color: #efefef; */
+  /* &.right {
+    float: right;
+    margin-left: 20px;
+  }
+  &.left {
+    float: left;
+    margin-right: 30px;
+  } */
+}
+.headline {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(65, 64, 64);
+  padding-bottom: 10px;
+}
+.content p {
+  font-weight: normal;
+  color: rgb(50, 49, 49);
+  padding-bottom: 10px;
+  line-height: 3rem;
+}
+.content {
+  width: 50%;
+  color: black;
+}
+.picture {
+  width: 320px;
+  height: 320px;
+  /* margin: auto; */
+  /* float: left; */
+}
+.picture img {
+  width: 100%;
+  height: 100%;
+}
+ul li {
+  font-size: 16px;
+  color: rgb(52, 51, 51);
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+/* .group {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+} */
+
+@media screen and (max-width: 854px) {
+  .article {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .content {
+    width: 80%;
+  }
+  .second {
+    flex-direction: column-reverse;
+  }
+}
+.btn1 button {
+  background: #acc1d8;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  line-height: 1.5;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn1 {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  padding-bottom: 8rem;
+  
+}
