@@ -120,6 +120,10 @@ li {
   .rightSideElement ul {
     height: 0;
   }
+  .leftSideElement {
+    margin-left: 50px;
+    margin-top: 14px;
+  }
 
   .rightSideElement ul li {
     justify-content: end;

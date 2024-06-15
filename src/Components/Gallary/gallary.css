@@ -21,8 +21,6 @@
   font-weight: 500;
 }
 
-
-
 /*  */
 .btn button {
   background: #4f4a96;
@@ -37,8 +35,10 @@
   margin-bottom: 40px;
 }
 .main {
-  max-width: 1200px;
-  margin: 5rem auto;
+  /* max-width: 1200px; */
+  /* margin: 5rem auto; */
+  padding-top: 4rem;
+  width: 100%;
 }
 
 h1 {
@@ -65,7 +65,7 @@ img {
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
-  padding-bottom: 8rem;
+  /* padding-bottom: 3rem; */
   text-align: center;
 }
 
@@ -91,13 +91,13 @@ img {
 
 @media (min-width: 40rem) {
   .cards_item {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 
 @media (min-width: 56rem) {
   .cards_item {
-    width: 33.3333%;
+    /* width: 33.3333%; */
   }
 }
 
@@ -110,8 +110,8 @@ img {
   overflow: hidden;
   position: relative;
   border-radius: 8px;
-  width: 350px;
-  margin: 20px;
+  /* width: 350px; */
+  /* margin: 20px; */
   overflow: hidden;
 }
 

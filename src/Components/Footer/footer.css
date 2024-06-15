@@ -1,26 +1,28 @@
-
 /* Importing Google font - Open Sans */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 .footer {
-  position: absolute;
+  /* position: absolute; */
   /* top: 50%; */
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   /* max-width: 1280px; */
   width: 100%;
   background: #232324;
   border-radius: 6px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .footer .footer-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
   gap: 3.5rem;
   padding: 60px;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
 }
+
 .footer-row .footer-col h4 {
   color: #fff;
   font-size: 1.7rem;
@@ -89,6 +91,15 @@
 .footer-col .icons i:hover {
   color: #fff;
 }
+@media (max-width: 860px) {
+  .footer .footer-row {
+    grid-template-columns: auto auto;
+    margin: auto;
+  }
+  .footer {
+    /* margin-top: 8rem; */
+  }
+}
 @media (max-width: 768px) {
   .footer {
     position: relative;
@@ -99,8 +110,8 @@
     border-radius: 0;
   }
   .footer .footer-row {
-    padding: 20px;
-    gap: 1rem;
+    /* padding: 20px; */
+    /* gap: 1rem; */
   }
   .footer-col form {
     display: block;
@@ -110,5 +121,18 @@
   }
   .footer-col form button {
     margin: 10px 0 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .footer .footer-row {
+    grid-template-columns: auto;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-col .icons {
+    justify-content: center;
+  }
+  .footer-col {
+    margin: auto;
   }
 }

@@ -5,6 +5,7 @@ import Videopart from "../videopart/videopart";
 import Gallarymain from "../Gallary/gallarymain";
 import Services from "../Services/Services";
 import Footer from "../Footer/Footer";
+import Clients from "../Clients/Clients";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Services />
       <Videopart />
       <Gallarymain />
+      <Clients />
       <Footer />
     </>
   );

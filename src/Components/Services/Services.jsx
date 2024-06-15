@@ -32,7 +32,7 @@ const Services = () => {
               <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
             </ul>
             <div className="btn1">
-        <button class="rounded">Start a project</button>
+        <button class="rounded">More Details</button>
       </div>
           </div>
         </article>
@@ -50,7 +50,7 @@ const Services = () => {
               <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
             </ul>
             <div className="btn1">
-        <button class="rounded">Start a project</button>
+        <button class="rounded">More Details</button>
       </div>
           </div>
           <div class="picture">
@@ -74,7 +74,7 @@ const Services = () => {
               <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
             </ul>
             <div className="btn1">
-        <button class="rounded">Start a project</button>
+        <button class="rounded">More Details</button>
       </div>
           </div>
         </article>
